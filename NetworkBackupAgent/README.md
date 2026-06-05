@@ -1,6 +1,6 @@
 # Klyroth BackupAgent
 
-Eigenständiger Java-21 Backup-Agent für Minecraft-Netzwerke und Server-Infrastruktur.
+Backup-Agent für Minecraft-Netzwerke und Server-Infrastruktur.
 
 ## Start
 
