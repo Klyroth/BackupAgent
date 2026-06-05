@@ -1,0 +1,33 @@
+app:
+  name: "KlyrothBackupAgent"
+  version: "1.0.0"
+
+backup:
+  interval-minutes: 20
+  output-folder: "backups"
+  file-prefix: "network-backup"
+  compression-level: 6
+  run-on-startup: true
+  paths:
+    - "/home/minecraft/cloudnet"
+    - "/home/minecraft/velocity"
+  exclude:
+    - "logs"
+    - "cache"
+    - "temp"
+    - "backups"
+    - ".tmp"
+
+storage:
+  enabled: true
+  min-free-space-gb: 30
+  delete-oldest-if-low-space: false
+
+plugins:
+  enabled: true
+  folder: "plugins"
+
+update:
+  enabled: true
+  source: "/home/minecraft/update/KlyrothBackupAgent.jar"
+  current-jar: "KlyrothBackupAgent.jar"

@@ -1,0 +1,5 @@
+name: DiscordAddonExample
+version: 1.0.0
+main: de.example.discord.DiscordAddonExample
+author: Developer
+description: Beispiel-Addon für den Klyroth BackupAgent
